@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mauitestapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|solutionrelative:mauitestapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mauitestapp\\mauitestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|solutionrelative:mauitestapp\\mauitestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mauitestapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|solutionrelative:mauitestapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mauitestapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|solutionrelative:mauitestapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mauitestapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85BEDA2-361D-437A-A90F-2910529243D0}|MauiTestApp\\MauiTestApp.csproj|solutionrelative:mauitestapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 264,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MauiTestApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MauiTestApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T07:47:05.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiTestApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MauiTestApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:07:23.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiTestApp.csproj",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MauiTestApp.csproj",
+              "RelativeDocumentMoniker": "MauiTestApp\\MauiTestApp.csproj",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MauiTestApp.csproj",
+              "RelativeToolTip": "MauiTestApp\\MauiTestApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T19:32:24.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiTestApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MainPage.xaml",
+              "RelativeToolTip": "MauiTestApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T19:22:50.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiTestApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MauiTestApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiTestApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:22:42.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "MauiTestApp-android": {
+      "commandName": "Project",
+      "commandLineArgs": "-f net8.0-android",
+      "nativeDebugging": false
+    },
+    "MauiTestApp-windows": {
+      "commandName": "Project",
+      "commandLineArgs": "-f net8.0-windows10.0.19041.0",
+      "nativeDebugging": true
+    }
+  }
+}

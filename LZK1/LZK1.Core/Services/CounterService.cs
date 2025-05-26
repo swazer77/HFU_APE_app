@@ -2,7 +2,8 @@ namespace LZ1.Core.Services;
 
 internal class CounterService : ICounterService
 {
-    private const string ConfirmationMessage = "Are you sure you want to to increment?";
+    private const string ConfirmationMessage = "Are you sure you want to increment?";
+    private const string ConfirmationMessageDec = "Are you sure you want to decrement?";
 
     private readonly ICounterState _state;
     private readonly IDialogService _dialogService;
@@ -19,6 +20,11 @@ internal class CounterService : ICounterService
         _state.Increment();
     }
 
+    public void Decrement()
+    {
+        _state.Decrement();
+    }
+
     /// <inheritdoc/>
     public async Task<bool> TryIncrement()
     {
@@ -32,10 +38,17 @@ internal class CounterService : ICounterService
         return result;
     }
 
+    public async Task<bool> TryDecrement()
+    {
+        var result = await _dialogService.AskAsync(ConfirmationMessageDec);
+        if (result) Decrement();
+        return result;
+    }
+
     /// <inheritdoc/>
     public string GetLabel()
     {
-        var suffix = _state.Count == 2 ? string.Empty : "s";
+        var suffix = _state.Count == 1 ? string.Empty : "s";
 
         return $"Clicked {_state.Count} time{suffix}";
     }
