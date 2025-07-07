@@ -13,6 +13,7 @@ namespace Inventar.ViewModels
         public ObservableCollection<Movie> Movies { get; set; } = new ObservableCollection<Movie>();
 
         private AppDatabase database;
+        //private JsonMovieService service = new JsonMovieService();
         private AiService aiService;
         private string searchText;
 
@@ -40,18 +41,32 @@ namespace Inventar.ViewModels
 
         public void LoadMovies()
         {
+            //SQLite
             Movies.Clear();
             foreach (var movie in database.Movies.ToList())
             {
                 Movies.Add(movie);
             }
+            
+            /* json
+            var loaded = await service.GetAllMoviesAsync();
+            Movies.Clear();
+            foreach (var movie in loaded)
+                Movies.Add(movie);
+            */
         }
 
         public void DeleteMovie(Movie movie)
         {
+            // SQLite
             database.Movies.Remove(movie);
             database.SaveChanges();
             LoadMovies();
+
+            /* json
+            await service.DeleteMovieAsync(movie);
+            LoadMovies();
+            */
         }
 
         public void SearchMovies()

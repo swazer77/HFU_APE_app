@@ -1,9 +1,10 @@
-﻿using System.ComponentModel;
+﻿using Inventar.Data;
+using Inventar.Models;
+using Inventar.Services;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using Inventar.Data;
-using Inventar.Models;
 
 namespace Inventar.ViewModels
 {
@@ -13,6 +14,7 @@ namespace Inventar.ViewModels
 
         public Movie Movie { get; set; }
         private AppDatabase db;
+        //private JsonMovieService service;
         public ICommand SaveCommand { get; }
         public ICommand CancelCommand { get; }
         public ICommand DeleteCommand { get; }
@@ -31,6 +33,7 @@ namespace Inventar.ViewModels
         {
             Movie = movie;
             this.db = db;
+            //service = new JsonMovieService();
             Navigation = nav;
 
             SetRatingCommand = new Command<object>(SetRating);
@@ -41,9 +44,15 @@ namespace Inventar.ViewModels
 
         private async void Save()
         {
+            // SQLite
             db.Movies.Update(Movie);
             await db.SaveChangesAsync();
             await Navigation.PopAsync();
+
+            /* json
+            await service.AddOrUpdateMovieAsync(Movie);
+            await Navigation.PopAsync();
+            */
         }
 
         private void SetRating(object obj)
@@ -72,9 +81,15 @@ namespace Inventar.ViewModels
 
         private async void Delete()
         {
+            // SQLite
             db.Movies.Remove(Movie);
             await db.SaveChangesAsync();
             await Navigation.PopAsync();
+
+            /* json
+            await service.DeleteMovieAsync(Movie);
+            await Navigation.PopAsync();
+            */
         }
 
         void OnPropertyChanged([CallerMemberName] string name = "") =>
