@@ -1,9 +1,11 @@
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MLZ2025.Core.Model;
 using MLZ2025.Core.Services;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
+using MLZ2025.Shared.Model;
+using MLZ2025.Shared.Services;
 
 namespace MLZ2025.Core.ViewModel;
 
@@ -11,87 +13,72 @@ public partial class MainViewModel : ObservableObject
 {
     private readonly IConnectivity _connectivity;
     private readonly IDialogService _dialogService;
-    private readonly DataAccessService<DatabaseAddress> _dataAccessService;
-    private readonly IHttpServerAccess _httpServerAccess;
+    private readonly DataAccess<DatabaseAddress> _dataAccess;
+    private readonly DataLoader _dataLoader;
 
     // TODO Use a custom object instead.
-    [ObservableProperty] private ObservableCollection<DatabaseAddress> _items;
+    [ObservableProperty] private ObservableCollection<ViewAddress> items = [];
 
-    [ObservableProperty] private string firstName = string.Empty;
-    [ObservableProperty] private string lastName = string.Empty;
-    [ObservableProperty] private string zipCode = string.Empty;
-    [ObservableProperty] private DateOnly birthday = DateOnly.FromDateTime(DateTime.Now);
+    [ObservableProperty] private string _firstName = "Bob";
+    [ObservableProperty] private string _lastName = "Jones";
+    [ObservableProperty] private string _zipCode = "13357";
+    [ObservableProperty] private DateOnly _birthday = DateOnly.FromDateTime(DateTime.Today);
 
-    [ObservableProperty] private string _text = "Something";
-
-    public MainViewModel(IConnectivity connectivity, IDialogService dialogService, DataAccessService<DatabaseAddress> dataAccess, IHttpServerAccess httpServerAccess)
+    public MainViewModel(IConnectivity connectivity, IDialogService dialogService, DataAccess<DatabaseAddress> dataAccess, DataLoader dataLoader)
     {
         _connectivity = connectivity;
         _dialogService = dialogService;
-        _dataAccessService = dataAccess;
-        _httpServerAccess = httpServerAccess;
+        _dataAccess = dataAccess;
+        _dataLoader = dataLoader;
 
+        // TODO add a loading property
 
-        /*
-        // TODO Map all properties from the address to the UI
-        var firstNames = _dataAccessService.Table().Select(address => address.FirstName).ToList();
+        // Task.Run(LoadAsync);
+    }
 
-        if (firstNames.Count == 0)
-        {
-            
-            // TODO Stop using the GetAwaiter().GetResult() pattern.
-            var serverAddresses = _httpServerAccess.GetAddressesAsync().GetAwaiter().GetResult();
-            firstNames = serverAddresses.Select(address => address.FirstName).ToList();
-            
-        }
+    [RelayCommand]
+    private async Task Load()
+    {
+        var addresses = await _dataLoader.GetDatabaseAddresses();
 
-        _items = new ObservableCollection<string>(firstNames);
-
-        */
-
+        Items = new ObservableCollection<ViewAddress>(addresses.Select(ViewAddress.FromDatabaseAddress));
     }
 
     [RelayCommand]
     private async Task Add()
     {
+        // TODO Validate other fields (birthday, ZipCode, etc.)
 
-        if (await ValidateText(firstName))
+        if (await ValidateText(FirstName) && await ValidateText(LastName))
         {
-            var d = new DatabaseAddress()
+            var d = new ViewAddress
             {
-                FirstName = firstName,
-                LastName = lastName,
-                ZipCode = zipCode,
-                BirthDate = birthday
+                FirstName = FirstName,
+                LastName = LastName,
+                ZipCode = ZipCode,
+                Birthday = Birthday.ToDateTime(TimeOnly.MinValue)
             };
 
             Items.Add(d);
-            _dataAccessService.Insert(d);
-
+            _dataAccess.Insert(ViewAddress.ToDatabaseAddress(d));
         }
     }
 
     [RelayCommand]
-    private async Task Delete(string item)
+    private async Task Delete(ViewAddress item)
     {
-        if (await ValidateText(item))
+        if (!Items.Remove(item))
         {
-            if (!Items.Remove(item))
-            {
-                Debug.WriteLine($"Cannot remove {item} because it is not in the list.");
-            }
+            Debug.WriteLine($"Cannot remove {item} because it is not in the list.");
         }
     }
 
     [RelayCommand]
-    private async Task Select(string item)
+    private async Task Select(ViewAddress item)
     {
-        if (await ValidateText(item))
-        {
-            // TODO Use the dictionary instead.
-            // Figure out how to test the Shell <https://software-engineering-corner.zuehlke.com/how-to-test-a-net-maui-app-part-1#heading-testing-of-a-view-model>
-            await Shell.Current.GoToAsync($"{nameof(DetailPage)}?{nameof(DetailViewModel.Text)}={item}");
-        }
+        // TODO Use the dictionary instead.
+        // Figure out how to test the Shell <https://software-engineering-corner.zuehlke.com/how-to-test-a-net-maui-app-part-1#heading-testing-of-a-view-model>
+        await Shell.Current.GoToAsync($"{nameof(DetailPage)}?{nameof(DetailViewModel.Text)}={item}");
     }
 
     private async Task<bool> ValidateText(string text)

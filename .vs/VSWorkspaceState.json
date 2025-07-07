@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MovieInventoryApp_Complete",
+    "\\MovieInventoryApp_Complete\\Models",
+    "\\MovieInventoryApp_Complete\\MovieInventoryApp",
+    "\\MovieInventoryApp_Complete\\Resources",
+    "\\MovieInventoryApp_Complete\\Services",
+    "\\MovieInventoryApp_Complete\\ViewModels",
+    "\\MovieInventoryApp_Complete\\Views",
+    "\\MovieInventoryApp_Full"
   ],
-  "SelectedNode": "\\LZK2.sln",
+  "SelectedNode": "\\MovieInventoryApp_Complete\\MovieInventoryApp.sln",
   "PreviewInSolutionExplorer": false
 }

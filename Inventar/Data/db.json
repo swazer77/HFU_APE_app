@@ -1,0 +1,160 @@
+﻿{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Debug Movie",
+      "serie": null,
+      "year": 2024,
+      "genre": "Sci-Fi",
+      "rating": 0,
+      "lastSeen": "2024-05-20T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 2,
+      "name": "Skyfall",
+      "serie": null,
+      "year": 2012,
+      "genre": "Action",
+      "rating": 3,
+      "lastSeen": "2023-11-03T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 3,
+      "name": "The Matrix",
+      "serie": null,
+      "year": 1999,
+      "genre": "Sci-Fi",
+      "rating": 2,
+      "lastSeen": "2022-07-15T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 4,
+      "name": "The Grand Budapest Hotel",
+      "serie": null,
+      "year": 2014,
+      "genre": "Comedy",
+      "rating": 4,
+      "lastSeen": "2024-01-10T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 5,
+      "name": "Whiplash",
+      "serie": null,
+      "year": 2014,
+      "genre": "Drama",
+      "rating": 5,
+      "lastSeen": "2023-09-21T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 6,
+      "name": "Inception",
+      "serie": null,
+      "year": 2010,
+      "genre": "Thriller",
+      "rating": 4,
+      "lastSeen": "2024-03-05T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 7,
+      "name": "Interstellar",
+      "serie": null,
+      "year": 2014,
+      "genre": "Sci-Fi",
+      "rating": 5,
+      "lastSeen": "2023-12-12T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 8,
+      "name": "Coco",
+      "serie": null,
+      "year": 2017,
+      "genre": "Animation",
+      "rating": 4,
+      "lastSeen": "2022-10-28T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 9,
+      "name": "Parasite",
+      "serie": null,
+      "year": 2019,
+      "genre": "Thriller",
+      "rating": 3,
+      "lastSeen": "2023-02-18T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 10,
+      "name": "1917",
+      "serie": null,
+      "year": 2019,
+      "genre": "War",
+      "rating": 2,
+      "lastSeen": "2023-06-09T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 11,
+      "name": "La La Land",
+      "serie": null,
+      "year": 2016,
+      "genre": "Musical",
+      "rating": 1,
+      "lastSeen": "2024-04-12T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 12,
+      "name": "The Batman",
+      "serie": null,
+      "year": 2022,
+      "genre": "Action",
+      "rating": 2,
+      "lastSeen": "2024-02-22T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    },
+    {
+      "id": 13,
+      "name": "Dune",
+      "serie": null,
+      "year": 2021,
+      "genre": "Sci-Fi",
+      "rating": 4,
+      "lastSeen": "2023-08-01T00:00:00",
+      "coverImageUrl": null,
+      "trailerUrl": null,
+      "description": null
+    }
+  ]
+}

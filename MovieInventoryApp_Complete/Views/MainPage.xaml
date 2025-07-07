@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieInventoryApp.Views.MainPage"
+             Title="Movie Inventory">
+    <VerticalStackLayout Padding="20">
+        <SearchBar Placeholder="Search movies..." />
+        <CollectionView x:Name="MoviesList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Name}" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Add Movie" />
+    </VerticalStackLayout>
+</ContentPage>

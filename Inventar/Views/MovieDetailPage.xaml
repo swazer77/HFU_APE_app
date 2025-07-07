@@ -1,0 +1,48 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inventar.Views.MovieDetailPage"
+             Title="Edit Movie">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Name" />
+            <Entry Text="{Binding Movie.Name}" />
+
+            <Label Text="Serie" />
+            <Entry Text="{Binding Movie.Serie}" />
+
+            <Label Text="Year" />
+            <Entry Text="{Binding Movie.Year}" Keyboard="Numeric" />
+
+            <Label Text="Genre" />
+            <Entry Text="{Binding Movie.Genre}" />
+
+            <Label Text="Last Seen" />
+            <DatePicker Date="{Binding Movie.LastSeen}" />
+
+            <Label Text="Rating" />
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <ImageButton Source="{Binding Star1}" Command="{Binding SetRatingCommand}" CommandParameter="1" />
+                <ImageButton Source="{Binding Star2}" Command="{Binding SetRatingCommand}" CommandParameter="2" />
+                <ImageButton Source="{Binding Star3}" Command="{Binding SetRatingCommand}" CommandParameter="3" />
+                <ImageButton Source="{Binding Star4}" Command="{Binding SetRatingCommand}" CommandParameter="4" />
+                <ImageButton Source="{Binding Star5}" Command="{Binding SetRatingCommand}" CommandParameter="5" />
+            </HorizontalStackLayout>
+
+            <Label Text="Description" />
+            <Label Text="{Binding Movie.Description}" />
+
+            <Label Text="Trailer" />
+            <Label Text="{Binding Movie.TrailerUrl}" />
+
+            <Label Text="Cover" />
+            <Image Source="{Binding Movie.CoverImageUrl}" />
+
+            <Button Text="Save" Command="{Binding SaveCommand}" />
+            <Button Text="Cancel" Command="{Binding CancelCommand}" />
+            <Button Text="Delete Movie" Command="{Binding DeleteCommand}" BackgroundColor="DarkRed" TextColor="White" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

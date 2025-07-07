@@ -1,0 +1,49 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inventar.Views.MainPage"
+             Title="Movie Inventory">
+    <VerticalStackLayout Padding="20">
+        <SearchBar 
+            Placeholder="Search movies..." 
+            Text="{Binding SearchText}" 
+            Margin="0,0,0,10" />
+        <Button 
+            Text="Add Movie" 
+            Clicked="OnAddMovieClicked"
+            Margin="0,0,0,10" />
+
+        <CollectionView ItemsSource="{Binding Movies}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="3" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Style="{StaticResource MovieItemFrame}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                NumberOfTapsRequired="1"
+                                CommandParameter="{Binding .}"
+                                Tapped="OnMovieTapped" />
+                            <TapGestureRecognizer
+                                NumberOfTapsRequired="2"
+                                CommandParameter="{Binding .}"
+                                Tapped="OnMovieDoubleTapped" />
+                        </Frame.GestureRecognizers>
+                        <VerticalStackLayout HorizontalOptions="Fill"
+                                             VerticalOptions="Center"
+                                             Style="{StaticResource MovieItems}">
+                            <Label Text="{Binding Name}" 
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding Year}" 
+                                   HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding LastSeenDisplay}" 
+                                   HorizontalTextAlignment="Center"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,36 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inventar.Views.AddMoviePage"
+             Title="Add Movie">
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <Grid Padding="20" RowSpacing="15" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Name" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" />
+            <Entry Text="{Binding Name}" Placeholder="Name of the Movie" Grid.Row="0" Grid.Column="1" />
+
+            <Label Text="Serie" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" />
+            <Entry Text="{Binding Serie}" Placeholder="Serie of the Movie" Grid.Row="1" Grid.Column="1" />
+
+            <Label Text="Year" Grid.Row="2" Grid.Column="0" VerticalOptions="Center" />
+            <Entry Text="{Binding Year}" Placeholder="Year" Keyboard="Numeric" Grid.Row="2" Grid.Column="1" />
+
+            <Label Text="Genre" Grid.Row="3" Grid.Column="0" VerticalOptions="Center" />
+            <Entry Text="{Binding Genre}" Placeholder="Genre" Grid.Row="3" Grid.Column="1" />
+
+        </Grid>
+
+        <Button Text="Save Movie" Command="{Binding SaveCommand}" Margin="20,10,20,0" />
+
+    </VerticalStackLayout>
+</ContentPage>

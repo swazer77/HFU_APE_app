@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MLZ2025.Core",
+    "\\MLZ2025.Core.Tests",
+    "\\MLZ2025App"
   ],
   "SelectedNode": "\\MLZ2025.slnx",
   "PreviewInSolutionExplorer": false

@@ -1,86 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\",
+  "WorkspaceRootPath": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\model\\databaseaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\model\\databaseaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mlz2025app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\dataaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\coreservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\coreservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\coreservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\mlz2025.core.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\mlz2025.core.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\mlz2025.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\mlz2025.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.core\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\httpserveraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\httpserveraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.core\\views\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\views\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\httpclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\httpclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.shared\\model\\dbmovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|solutionrelative:mlz2025.shared\\model\\dbmovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\viewmodel\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.shared\\model\\databaseaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|solutionrelative:mlz2025.shared\\model\\databaseaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.shared\\model\\serveraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|solutionrelative:mlz2025.shared\\model\\serveraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.shared\\model\\viewaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5454244E-716A-33F3-2536-992A1CA8599F}|MLZ2025.Shared\\MLZ2025.Shared.csproj|solutionrelative:mlz2025.shared\\model\\viewaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\project\\hfu_ape_app\\mlz2025\\mlz2025.core\\viewmodel\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\viewmodel\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\model\\serveraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\model\\serveraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\services\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\services\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6E12B553-A073-71FB-008D-62497E222899}|MLZ2025App\\MLZ2025App.csproj|solutionrelative:mlz2025app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\README.MD||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.MD||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\sqlitetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\sqlitetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C88CCE2-C54C-2850-875E-3497EB38D90F}|MLZ2025.Core\\MLZ2025.Core.csproj|solutionrelative:mlz2025.core\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|c:\\users\\gamer\\offdrive\\projects\\hfu_ape_app\\mlz2025\\mlz2025.core.tests\\httpserveraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E56EE8A6-3A43-35CD-6FAA-BF12E49EE9BE}|MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj|solutionrelative:mlz2025.core.tests\\httpserveraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,15 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -114,259 +70,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\MainPage.xaml",
-              "RelativeToolTip": "MLZ2025.Core\\Views\\MainPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-02T18:53:43.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MLZ2025.Core.Tests",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj",
-              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj",
-              "RelativeToolTip": "MLZ2025.Core.Tests\\MLZ2025.Core.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-02T18:36:10.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "MLZ2025.Core\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAtwD4AAAAkAAAAAAAAAA==",
+              "Title": "CoreServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "RelativeToolTip": "MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:27:35.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ServerAddress.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\ServerAddress.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Model\\ServerAddress.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\ServerAddress.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Model\\ServerAddress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:25:10.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HttpServerAccess.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\HttpServerAccess.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\HttpServerAccess.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\HttpServerAccess.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Services\\HttpServerAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:24:51.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DetailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
-              "RelativeToolTip": "MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:23:48.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IDialogService.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\IDialogService.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\IDialogService.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\IDialogService.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Services\\IDialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:23:39.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DialogService.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DialogService.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\DialogService.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DialogService.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Services\\DialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:23:36.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025App\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MLZ2025App\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025App\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MLZ2025App\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T18:23:17.139Z",
+              "WhenOpened": "2025-07-04T09:10:17.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DatabaseAddress.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\DatabaseAddress.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Model\\DatabaseAddress.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\DatabaseAddress.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Model\\DatabaseAddress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MLZ2025App\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
+              "RelativeToolTip": "MLZ2025App\\MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:23:00.296Z",
+              "WhenOpened": "2025-07-04T09:10:07.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataAccessService.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DataAccessService.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\DataAccessService.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\DataAccessService.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Services\\DataAccessService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:17:45.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CoreServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Services\\CoreServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T17:54:35.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "README.MD",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\README.MD",
-              "RelativeDocumentMoniker": "README.MD",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\README.MD",
-              "RelativeToolTip": "README.MD",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-06-02T17:48:11.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HttpServerAccess.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpServerAccess.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\HttpServerAccess.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpServerAccess.cs",
-              "RelativeToolTip": "MLZ2025.Core.Tests\\HttpServerAccess.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:36:08.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\Address.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\Model\\Address.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Model\\Address.cs",
-              "RelativeToolTip": "MLZ2025.Core\\Model\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:21:10.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SQLiteTests.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SQLiteTests.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\SQLiteTests.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\SQLiteTests.cs",
-              "RelativeToolTip": "MLZ2025.Core.Tests\\SQLiteTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:13:07.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MLZ2025App.csproj",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MLZ2025App.csproj",
-              "RelativeDocumentMoniker": "MLZ2025App\\MLZ2025App.csproj",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MLZ2025App.csproj",
-              "RelativeToolTip": "MLZ2025App\\MLZ2025App.csproj",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-26T19:07:46.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MLZ2025.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\MLZ2025.Core.csproj",
-              "RelativeDocumentMoniker": "MLZ2025.Core\\MLZ2025.Core.csproj",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\MLZ2025.Core.csproj",
-              "RelativeToolTip": "MLZ2025.Core\\MLZ2025.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-26T19:10:51.503Z",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\MainPage.xaml",
+              "RelativeToolTip": "MLZ2025.Core\\Views\\MainPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T09:09:49.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MLZ2025App\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025App\\MauiProgram.cs",
-              "RelativeToolTip": "MLZ2025App\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:51:50.545Z",
+              "Title": "DetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\DetailPage.xaml",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\Views\\DetailPage.xaml",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\Views\\DetailPage.xaml",
+              "RelativeToolTip": "MLZ2025.Core\\Views\\DetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T09:09:38.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HttpClientTests.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpClientTests.cs",
-              "RelativeDocumentMoniker": "MLZ2025.Core.Tests\\HttpClientTests.cs",
-              "ToolTip": "C:\\Users\\gamer\\OffDrive\\projects\\HFU_APE_app\\MLZ2025\\MLZ2025.Core.Tests\\HttpClientTests.cs",
-              "RelativeToolTip": "MLZ2025.Core.Tests\\HttpClientTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DbMovie.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\DbMovie.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Shared\\Model\\DbMovie.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\DbMovie.cs",
+              "RelativeToolTip": "MLZ2025.Shared\\Model\\DbMovie.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:48:42.919Z",
+              "WhenOpened": "2025-07-04T09:04:31.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewAddress.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\ViewAddress.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Shared\\Model\\ViewAddress.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\ViewAddress.cs",
+              "RelativeToolTip": "MLZ2025.Shared\\Model\\ViewAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:03:55.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseAddress.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\DatabaseAddress.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Shared\\Model\\DatabaseAddress.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\DatabaseAddress.cs",
+              "RelativeToolTip": "MLZ2025.Shared\\Model\\DatabaseAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:59:26.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServerAddress.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\ServerAddress.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Shared\\Model\\ServerAddress.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Shared\\Model\\ServerAddress.cs",
+              "RelativeToolTip": "MLZ2025.Shared\\Model\\ServerAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:59:22.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
+              "RelativeDocumentMoniker": "MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
+              "ToolTip": "C:\\Users\\gamer\\OffDrive\\project\\HFU_APE_app\\MLZ2025\\MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
+              "RelativeToolTip": "MLZ2025.Core\\ViewModel\\DetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:58:26.788Z",
               "EditorCaption": ""
             }
           ]
