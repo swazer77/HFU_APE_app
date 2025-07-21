@@ -1,16 +1,16 @@
 # LZK2 Note
 
-|                  Name | Points  | Notes                                                                       |
-| --------------------: | :-----: | --------------------------------------------------------------------------- |
-|          PLZ einbauen |   5/5   |                                                                             |
-| Neuer Dienst einbauen |   5/5   |                                                                             |
-|       Dienst ausbauen |   3/3   |                                                                             |
-|      Ansicht anpassen |   2/2   |                                                                             |
-| Grid-ansicht anpassen |   1/2   | Age Spalte wird nicht mit einer anderen Farbe dargestellt.                  |
-|                 Total | 16 / 17 |                                                                             |
-|                Abzüge |    1    | Die Einträge in die Liste können nicht gelesen werden (schwarz auf schwarz) |
-|                 Total | 15 / 17 |                                                                             |
-|                 Total |   5.3   |                                                                             |
+|                  Name | Points  | Notes                                                                   |
+| --------------------: | :-----: | ----------------------------------------------------------------------- |
+|          PLZ einbauen |   5/5   |                                                                         |
+| Neuer Dienst einbauen |   5/5   |                                                                         |
+|       Dienst ausbauen |   3/3   |                                                                         |
+|      Ansicht anpassen |   2/2   |                                                                         |
+| Grid-ansicht anpassen |   2/2   | Age Spalte wird nur mit einer anderen Farbe in Dunkelmodus dargestellt. |
+|                 Total | 17 / 17 |                                                                         |
+|                Abzüge |    0    |                                                                         |
+|                 Total | 17 / 17 |                                                                         |
+|                 Total |   6.0   |                                                                         |
 
 ### Neuer Eigenschaft einbauen
 
